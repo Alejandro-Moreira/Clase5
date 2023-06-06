@@ -34,13 +34,11 @@ public class Figuras3D { //esfera, cubo, cilindro y piramide
         return 6 * (this.lado * this.lado);
     }
 
-    ;
 
     public float perimetroCubo() {
         return 12 * lado;
     }
 
-    ;
 
     public float areaPiramide() {
         return ((this.lado * this.lado) + (this.nLados * this.lado) / 2);
